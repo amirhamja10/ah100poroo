@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ah100poroo - Loading</title>
+    <style>
+        body { display: flex; justify-content: center; align-items: center; height: 100vh; background: #f8f8f8; font-family: sans-serif; }
+        .logo { position: absolute; top: 20px; left: 20px; font-size: 20px; font-weight: bold; }
+        .loader { font-size: 24px; }
+    </style>
+</head>
+<body>
+    <div class="logo">ah100poroo</div>
+    <div class="loader">লোড হচ্ছে...</div>
+    <script>
+        setTimeout(() => { window.location.href = "activate.html"; }, 3000);
+    </script>
+</body>
+</html><!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>অ্যাক্টিভেশন</title>
+    <style>
+        body { display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100vh; background: #eef; font-family: sans-serif; }
+        input { padding: 10px; margin: 5px; width: 200px; }
+        button { padding: 10px 20px; background: green; color: white; border: none; }
+    </style>
+</head>
+<body>
+    <h2>অ্যাক্টিভেশন</h2>
+    <input type="text" placeholder="ইউজার আইডি লিখুন">
+    <input type="password" placeholder="পাসওয়ার্ড লিখুন">
+    <button onclick="window.location.href='dashboard.html'">লগইন</button>
+</body>
+</html><!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ড্যাশবোর্ড</title>
+    <style>
+        body { font-family: sans-serif; padding: 20px; background: #fafafa; }
+        h1 { color: #333; }
+        .menu a { display: block; margin: 10px 0; text-decoration: none; color: blue; }
+    </style>
+</head>
+<body>
+    <h1>ড্যাশবোর্ডে স্বাগতম</h1>
+    <div class="menu">
+        <a href="#">প্রোফাইল</a>
+        <a href="#">সেটিংস</a>
+        <a href="#">লগ আউট</a>
+    </div>
+</body>
+</html>
